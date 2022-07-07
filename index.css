@@ -1,0 +1,50 @@
+div h2:only-child{
+color:rgb(80,100,255);
+padding-left: 120px;
+}
+tbody > tr:nth-child(2n-1){
+ background-color:darkgrey;
+}
+tbody > tr:nth-child(2n){
+background-color: lightgrey;
+}
+tr > td:nth-child(6){
+color:red;
+text-align: center;
+font-size: 30px;
+font-weight:bold;
+}
+tr > td:nth-child(7){
+color: red;
+text-align: center;
+font-size: 30px;
+font-weight:bold;
+}
+tr > td{
+text-align: center;
+font-size: 30px;
+border: 1px thin blue;
+font-weight: 900;
+}
+#special{
+border-collapse: collapse;
+border:1px solid black;
+}
+thead > tr{
+background-color: rgb(240,200,90)
+}
+thead  td{
+color:green;
+font-weight: bold;
+}
+tfoot > tr{
+background-color: rgb(20,200,20);
+}
+tfoot  td{
+font-weight: bold;
+font-size: 25px;
+}
+
+
+
+
